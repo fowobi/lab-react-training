@@ -20,6 +20,7 @@ const CreditCard = ({
   };
 
   return (
+    
     <div
       className="credit-card"
       style={{
@@ -44,6 +45,7 @@ const CreditCard = ({
       </div>
       <div className="card-owner">{owner}</div>
     </div>
+  
   );
 };
 
