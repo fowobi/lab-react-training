@@ -1,6 +1,9 @@
 import React from "react";
 import IdCard from "./components/IdCard";
 import Greetings from "./components/Greetings";
+import CreditCard from "./components/CreditCard";
+import "./index.css";
+import creditCardData from "./components/CreditCardData.json";
 
 
 function App() {
@@ -23,9 +26,11 @@ function App() {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
-        <Greetings lang="de">Ludwig</Greetings>
-        <Greetings lang="fr">François</Greetings>
-      
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
+      {creditCardData.map((card, index) => (
+        <CreditCard key={index} {...card} />
+      ))}
     </div>
   );
 }

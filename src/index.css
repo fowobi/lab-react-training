@@ -19,3 +19,61 @@ code {
    margin-top: 1rem;
   
 }
+.credit-card {
+  margin-top: 2rem;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+  
+}
+
+.credit-card .card-type {
+  text-align: right;
+  font-size: 24px;
+}
+
+.credit-card .card-number {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+
+.credit-card .card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card .card-info .expiration {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.credit-card .card-info .expiration-date {
+  font-size: 16px;
+}
+
+.credit-card .card-info .bank {
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.credit-card .card-info .bank-name {
+  font-size: 16px;
+}
+
+.credit-card .card-owner {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.card-spacing {
+  margin-bottom: 20px;
+}
